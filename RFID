@@ -7,5 +7,10 @@
 #include <LiquidCrystal_SR2W.h>
 #include <LiquidCrystal_SR3W.h>
 
-#include <Wire.h>
+#include <deprecated.h>
+#include <MFRC522.h>
+#include <MFRC522Extended.h>
+#include <require_cpp11.h>
 
+#include <SPI.h>
+#include <Wire.h>
