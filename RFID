@@ -15,7 +15,7 @@
 #include <SPI.h>
 #include <Wire.h>
 
-#define RST_PIN         9          // Configurable, see typical pin layout above
+#define RST_PIN         9
 #define SS_PIN          10         // Configurable, see typical pin layout above
 #define pinRele1 3
 
