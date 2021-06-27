@@ -16,7 +16,7 @@
 #include <Wire.h>
 
 #define RST_PIN         9
-#define SS_PIN          10         // Configurable, see typical pin layout above
+#define SS_PIN          10
 #define pinRele1 3
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
