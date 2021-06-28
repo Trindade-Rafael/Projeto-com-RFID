@@ -30,11 +30,22 @@ void setup()
   Serial.begin(9600);   
   SPI.begin();      
   mfrc522.PCD_Init();  
-   
+
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(pinRele1, OUTPUT);
 }
 
+void loop() 
+{
+  if ( ! mfrc522.PICC_IsNewCardPresent()) 
+  {
+    return;
+  }
+  if ( ! mfrc522.PICC_ReadCardSerial()) 
+  {
+    return;
+  }
 
+  
