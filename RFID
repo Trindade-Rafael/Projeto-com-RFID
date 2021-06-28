@@ -48,4 +48,17 @@ void loop()
     return;
   }
 
+    Serial.print("Identificação do cartao:");
+  String conteudo= "";
+  byte letra;
+  for (byte i = 0; i < mfrc522.uid.size; i++) 
+  {
+     Serial.print(mfrc522.uid.uidByte[i] < 0x10 ? " 0" : " ");
+     Serial.print(mfrc522.uid.uidByte[i], HEX);
+     conteudo.concat(String(mfrc522.uid.uidByte[i] < 0x10 ? " 0" : " "));
+     conteudo.concat(String(mfrc522.uid.uidByte[i], HEX));
+  }
   
+  Serial.println();
+  Serial.print("Mensagem : ");
+  conteudo.toUpperCase();
