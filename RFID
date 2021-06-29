@@ -73,7 +73,7 @@ void loop()
     delay(3000);
     lcd.clear();
     digitalWrite(7, HIGH); // ativa led vermelho
-    delay(500);           // espera 3 segundos
+    delay(500);           // espera 5 segundos
     digitalWrite(7, LOW);  // desativa led vermelho
     delay(500); 
     digitalWrite(7, HIGH); 
@@ -84,7 +84,7 @@ void loop()
     delay(500);          
     digitalWrite(7, LOW);
     digitalWrite(6, HIGH); // ativa led verde
-    delay(500);                 // espera 3 segundos
+    delay(500);                 // espera 5 segundos
     digitalWrite(6, LOW); // desativa led verde
     delay(500); 
     digitalWrite(6, HIGH); 
@@ -98,7 +98,7 @@ void loop()
      Serial.println("TESTE");
     Serial.println();
     digitalWrite(5, HIGH); // ativa led amarelo
-    delay(500);           // espera 3 segundos
+    delay(500);           // espera 5 segundos
     digitalWrite(5, LOW);  // desativa led amarelo
     delay(500); 
     digitalWrite(5, HIGH); 
