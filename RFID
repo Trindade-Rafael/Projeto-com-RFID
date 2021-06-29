@@ -63,7 +63,7 @@ void loop()
   Serial.print("Mensagem : ");
   conteudo.toUpperCase();
 
-  if (conteudo.substring(1) == "60 BC 77 89") //cartao 1
+  if (conteudo.substring(1) == "identificação do cartão") //cartao 1
   {
     Serial.println("TESTE!");
     Serial.println();
