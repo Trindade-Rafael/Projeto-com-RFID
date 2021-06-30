@@ -149,3 +149,21 @@ if (conteudo.substring(1) == "identificação do cartão") //cartao 2
     lcd.setBacklight(LOW);
     digitalWrite(pinRele1, HIGH);
   }
+
+   if (conteudo.substring(1) == "identificação do cartão") //cartao 3
+  {
+    Serial.println("mensagem qualquer");
+    Serial.println();
+    digitalWrite(5, HIGH); // ativa led amarelo
+    delay(500);           // espera 5 segundos
+    digitalWrite(5, LOW);  // desativa led amarelo
+    delay(500); 
+    digitalWrite(5, HIGH); 
+    delay(500);          
+    digitalWrite(5, LOW);
+    delay(500); 
+    digitalWrite(5, HIGH); 
+    delay(500);          
+    digitalWrite(5, LOW);
+  }  
+}
