@@ -119,7 +119,7 @@ if (conteudo.substring(1) == "identificação do cartão") //cartao 2
     digitalWrite(pinRele1, LOW);
     lcd.print("mensagem qualquer!");
     digitalWrite(6, HIGH); // ativa led verde
-    delay(500);                 // espera 3 segundos
+    delay(500);                 // espera 5 segundos
     digitalWrite(6, LOW); // desativa led verde
     delay(500); 
     digitalWrite(6, HIGH); 
@@ -134,7 +134,7 @@ if (conteudo.substring(1) == "identificação do cartão") //cartao 2
      Serial.println("mensagem qualquer");
     Serial.println();
     digitalWrite(5, HIGH); // ativa led amarelo
-    delay(500);           // espera 3 segundos
+    delay(500);           // espera 5 segundos
     digitalWrite(5, LOW);  // desativa led amarelo
     delay(500); 
     digitalWrite(5, HIGH); 
