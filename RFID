@@ -15,7 +15,7 @@
 #include <SPI.h>
 #include <Wire.h>
 
-// 3.3v
+// 3.3v  
 #define RST_PIN  9
 #define SS_PIN   10
 #define pinRele1 3
