@@ -49,7 +49,7 @@ void loop()
     return;
   }
 
-    Serial.print("Identificação do cartao:");
+    Serial.print("Identificação do cartão:");
   String conteudo= "";
   byte letra;
   for (byte i = 0; i < mfrc522.uid.size; i++) 
