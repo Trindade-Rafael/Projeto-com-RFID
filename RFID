@@ -6,6 +6,7 @@
 #include <LiquidCrystal_SR.h>
 #include <LiquidCrystal_SR2W.h>
 #include <LiquidCrystal_SR3W.h>
+// a utilização do display é opcional dependendo do tipo de aplicação do projeto
 
 #include <deprecated.h>
 #include <MFRC522.h>
